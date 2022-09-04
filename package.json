@@ -3,10 +3,10 @@
   "name": "cluster-escalabilidad-proxy-nginx",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js ",
+  "main": "server.js",
   "scripts": {
     "cluster": "nodemon server.js --watch --CLUSTER",
-    "start": "nodemon --watch server.js",
+    "start": "server.js",
     "ini_SQLite": "node database/SQL/config/table/SqliteTable.js",
     "st": "npm run ini_mySQL && npm run ini_SQLite && node server.js"
   },
